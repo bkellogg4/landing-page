@@ -87,3 +87,22 @@ img {
     border-radius: 8px;
     margin-bottom: 4px;
 }
+/*gray-block*/
+.gray-block {
+    background-color: #E5E7EB;
+}
+.quote-container {
+    padding: 96px 196px;
+}
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+}
+.author {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: right;
+}
