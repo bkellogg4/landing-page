@@ -1,14 +1,17 @@
 body {
-    background-color: #1F2937;
     font-family: roboto;
+    margin: 0;
 }
 /*navy-block*/
+.navy-block {
+    background-color: #1F2937;
+}
 .header {
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
     font-size: 24px;
-    margin: 12px 120px;
+    padding: 12px 120px;
 }
 a, h3 {
     text-decoration: none;
@@ -29,7 +32,7 @@ ul {
 .container {
     display: flex;
     justify-content: space-between;
-    margin: 100px 120px;
+    padding: 100px 120px;
     gap: 24px;
     
 }
@@ -72,18 +75,20 @@ h2 {
 .img-container {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 36px;
     padding-bottom: 48px;
     
 }
 .info {
     display: flex;
     flex-wrap: wrap;
-    width: 100px;
+    width: 150px;
     text-align: center;
+    color: rgb(100, 97, 97);
+    font-size: 18px;
 }
 img {
-    border: 2px solid #3882F6;
+    border: 3px solid #3882F6;
     border-radius: 8px;
     margin-bottom: 4px;
 }
@@ -92,17 +97,42 @@ img {
     background-color: #E5E7EB;
 }
 .quote-container {
-    padding: 96px 196px;
+    padding: 96px 270px;
 }
 .quote {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
     text-align: left;
 }
 .author {
     color: #1F2937;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 700;
     text-align: right;
+}
+/*bottom-white-block*/
+.bottom-white-block {
+    background-color: white;
+}
+.blue-container {
+    background-color: #3882F6;
+    margin: 48px 200px;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+}
+#bordered {
+    border: solid 2px white;
+}
+/*footer*/
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 32px 200px;
+    text-align: center;
+    font-size: small;
 }
